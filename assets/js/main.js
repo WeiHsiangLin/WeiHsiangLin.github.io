@@ -4,6 +4,22 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
+var text = ["Data enthusiast", "Entrepreneur", "Problem Solver"];
+var counter = 0;
+var elem = document.getElementById("changeText");
+var inst = setInterval(change, 1000);
+
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  }
+}
+
 (function($) {
 
 	var $window = $(window),
