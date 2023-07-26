@@ -2718,6 +2718,24 @@ input, select, textarea {
 			width: 6.25em;
 		}
 
+
+		#header_bg {
+			margin-left: 40
+			%
+		}
+
+
+
+	@media screen and (min-width: 980px) {
+
+			#header_bg {
+				margin-left: 60%; 
+			}
+
+		}
+
+
+
 /* Footer */
 
 	#footer .icons {
@@ -3278,6 +3296,8 @@ input, select, textarea {
 				}
 
 	}
+
+
 
 /* XSmall */
 
